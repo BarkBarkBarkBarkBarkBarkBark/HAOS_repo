@@ -12,7 +12,26 @@ When accessing from local host, the repo is found at /Volumes/config/python_scri
 
 ## Managing the Repo
 
-The repo can be edited in three ways
+### IDE (PyCharm)
 
-1. Github - Remote : https://github.com/BarkBarkBarkBarkBarkBarkBark/HAOS_repo.git
-2. 
+#### Git Clone
+Open HAOS_VM_repo at /Users/marco/PycharmProjects/HAOS_VM_repo
+
+git clone https://github.com/BarkBarkBarkBarkBarkBarkBark/HAOS_repo.git
+
+username :Bark...Bark
+password : GitHub PAT
+
+#### Make Changes in PyCharm
+Make changes, push, and commit
+
+Github desktop, fetch origin, pull origin
+
+### GitHUb Desktop 
+
+Expose directory using Samba, instructions above
+
+Open HAOS_Repo
+
+Edit in dashboard : http://homeassistant.local:8123/hassio/ingress/core_configurator
+
