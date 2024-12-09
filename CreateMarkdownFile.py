@@ -1,7 +1,7 @@
 import os
 
 
-def generate_markdown(file_name, text, directory="markdown_files"):
+def generate_markdown(file_name, text, directory="/config/markdown_files"):
     """
     Generate a Markdown (.md) file with the given text.
 
